@@ -1,0 +1,25 @@
+*{
+    background-color: aqua;
+    /*outline:2px solid red;*/
+}
+h1, button, th, td{
+    width:3em;
+    font-family: "Courier", serif;
+    font-size: 24pt;
+    text-align: center;
+
+}
+#register{
+	text-align: left;
+
+}
+h1{
+	width:10em;
+	
+}
+section{
+    width:40em;
+    display:block;
+    margin: auto;
+
+}
