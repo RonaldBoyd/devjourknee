@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(192, 192, 30);
+}
+button{
+    width:9em;
+    height: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+p{
+    display:block;
+    width:40em;
+    margin:auto;
+    padding:2em;
+    text-indent: 2em;
+}
