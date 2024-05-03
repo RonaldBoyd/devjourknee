@@ -1,65 +1,64 @@
-body {
-  background: #cccccc;
-  margin-top: 5%;
-  margin-bottom: 5%;
+body{
+    background-color: cyan;
+    width: 50em;
+    margin: auto;
 }
-h1 {
-  size: 500px;
-  font-size: 28pt;
-  display: block;
-  text-align: center;
+img{
+    width:200px;
+    height:200px;
 }
-h2 {
-  size: 500px;
-  display: block;
-  text-align: left;
-  margin-left: 25%;
+table, th, td{
+    border:2px solid black;
 }
-.blurb {
-  margin-left: 0%;
-  size: 500px;
-  display: block;
-  text-align: center;
+th, td{
+    text-align:left;
+    padding: 2px;
+    background-color: white;
+    width:16em;
 }
-h3 {
-  size: 500px;
-  display: block;
-  text-align: left;
-  margin-left: 30%;
+.hobbies td{
+    text-align: center;
+    
 }
-ul {
-  size: 500px;
-  font-size: 14pt;
-  display: block;
-  text-align: left;
-  margin-left: 33%;
+fieldset {
+    font-size: 14pt;
+    height: 16em;
+    width: 20em;
+    border: 2pt solid black;
+   
 }
-.nested {
-  size: 500px;
-  font-size: 14pt;
-  display: block;
-  text-align: left;
-  margin-left: 1%;
+
+.button{
+    height:2em;
+    width:6em;
+    margin:1em;
+    font-size: 14pt;
+    border-radius: 8px;
 }
-p {
-  size: 500px;
-  font-size: 14pt;
-  display: block;
-  text-align: left;
-  margin-left: 33%;
+input{
+    margin:2em;
+    background-color: white;
+    width:20em;
 }
-span {
-  size: 500px;
-  font-size: 16pt;
-  display: block;
-  text-align: center;
-  font-style: italic;
+textarea{
+    height: 8em;
+    width:30em;
+    margin:1em;
+    background-color: white;
+    
 }
-.heading:hover {
-  color: green;
-  font-style: italic;
+
+.bio{
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(9, 9, 9);
+    width: 40em;
+    padding: 2em;
+    border: 4px solid rgb(255, 0, 115);
+    border-radius: 40px;
+    background-image:url('../images/Suit.png')
 }
-a:hover {
-  color: navy;
-  text-decoration: none;
+a:hover{
+    font-style: italic;
 }

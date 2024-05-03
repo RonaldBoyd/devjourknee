@@ -1,0 +1,65 @@
+body {
+  background: #cccccc;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h1 {
+  size: 500px;
+  font-size: 28pt;
+  display: block;
+  text-align: center;
+}
+h2 {
+  size: 500px;
+  display: block;
+  text-align: left;
+  margin-left: 25%;
+}
+.blurb {
+  margin-left: 0%;
+  size: 500px;
+  display: block;
+  text-align: center;
+}
+h3 {
+  size: 500px;
+  display: block;
+  text-align: left;
+  margin-left: 30%;
+}
+ul {
+  size: 500px;
+  font-size: 14pt;
+  display: block;
+  text-align: left;
+  margin-left: 33%;
+}
+.nested {
+  size: 500px;
+  font-size: 14pt;
+  display: block;
+  text-align: left;
+  margin-left: 1%;
+}
+p {
+  size: 500px;
+  font-size: 14pt;
+  display: block;
+  text-align: left;
+  margin-left: 33%;
+}
+span {
+  size: 500px;
+  font-size: 16pt;
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+.heading:hover {
+  color: green;
+  font-style: italic;
+}
+a:hover {
+  color: navy;
+  text-decoration: none;
+}
