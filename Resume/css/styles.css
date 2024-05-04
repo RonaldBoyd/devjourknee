@@ -20,6 +20,14 @@ th, td{
     text-align: center;
     
 }
+.volunteer{
+    text-align: center;
+    
+}
+.imdb, .imdb th{
+    width:10em;
+    text-align:center;
+}
 fieldset {
     font-size: 14pt;
     height: 18em;
