@@ -2,19 +2,33 @@
     background-color: aqua;
     /*outline:2px solid red;*/
 }
+table{
+    padding: 3px;
+    border:2px black solid;
+    border-radius: 10px;
+    background-color: white;
+}
 h1, button, th, td{
     width:3em;
     font-family: "Courier", serif;
     font-size: 24pt;
     text-align: center;
+    background-color: cadetblue;
+    border-radius: 10px;
 
 }
 #register{
 	text-align: left;
+    width:10em;
+    height:1.5em;
+    border:2px black solid;
+    border-radius: 10px;
+    background-color: silver;
 
 }
 h1{
 	width:10em;
+    color:antiquewhite;
 	
 }
 section{
