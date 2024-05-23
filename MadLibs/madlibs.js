@@ -54,17 +54,17 @@ let name=madlibs[0],
      singer=madlibs[15],
      author=madlibs[16]
 
- story=`Once upon a time in a vibrant town called ${ hometown }, there lived a spirited young girl named ${ name }. At ${ age } years old, her curly hair shimmered with streaks of ${ color }, a color she adored for its uniqueness just like her personality. Her favorite food was a colorful rainbow ${ food }, a delightful mix of fresh veggies that matched her colorful outlook on life.
+ story=`Once upon a time in a vibrant town called <span>${ hometown }</span>, there lived a spirited young girl named <span>${ name }</span>. At <span>${ age }</span> years old, her curly hair shimmered with streaks of <span>${ color }</span>, a color she adored for its uniqueness just like her personality. Her favorite food was a colorful rainbow <span>${ food }</span>, a delightful mix of fresh veggies that matched her colorful outlook on life.
 
-${ name }’s best friend was a playful and loyal golden ${ animal } named ${ petname }, who accompanied her on all her adventures. Together, they loved watching the classic movie "${ movie }," and their hearts would soar with the soundtrack's iconic song, "${ song }," echoing through their cozy home.
+<span>${ name }</span>’s best friend was a playful and loyal golden <span>${ animal }</span> named <span>${ petname }</span>, who accompanied her on all her adventures. Together, they loved watching the classic movie "<span>${ movie }</span>," and their hearts would soar with the soundtrack's iconic song, "<span>${ song }</span>," echoing through their cozy home.
 
-Despite her love for animals, ${ name } also had a passion for sports, especially ${ sport }. She would spend hours at the town’s shimmering lake, practicing her strokes and diving techniques with ${ petname } paddling alongside her. ${ name }'s favorite book was "${ book }" by ${ author }, which she would read under her favorite oak tree by the lake.
+Despite her love for animals, <span>${ name }</span> also had a passion for sports, especially <span>${ sport }</span>. She would spend hours at the town’s shimmering lake, practicing her strokes and diving techniques with <span>${ petname }</span> paddling alongside her. <span>${ name }</span>'s favorite book was "<span>${ book }</span>" by <span>${ author }</span>, which she would read under her favorite oak tree by the lake.
 
-Every evening, ${ name } and her family would gather to watch their favorite show, "${ show }," a thrilling series about explorers discovering hidden treasures in far-off lands. ${ name }’s musical taste was as eclectic as her interests, and she adored the melodic tunes of the band ${ band }, whose lead singer’s voice always transported her to a world of dreams and possibilities.
+Every evening, <span>${ name }</span> and her family would gather to watch their favorite show, "<span>${ show }</span>," a thrilling series about explorers discovering hidden treasures in far-off lands. <span>${ name }</span>’s musical taste was as eclectic as her interests, and she adored the melodic tunes of the band <span>${ band }</span>, whose lead singer’s voice always transported her to a world of dreams and possibilities.
 
-One day, ${ hometown } hosted a grand talent show, and ${ name } decided to showcase her ${ sport } skills. With ${ petname } as her loyal companion, she dove gracefully, performing intricate underwater tricks that left the audience spellbound. The judges, impressed by her talent and determination, awarded her first prize.
+One day, <span>${ hometown }</span> hosted a grand talent show, and <span>${ name }</span> decided to showcase her <span>${ sport }</span> skills. With <span>${ petname }</span> as her loyal companion, she dove gracefully, performing intricate underwater tricks that left the audience spellbound. The judges, impressed by her talent and determination, awarded her first prize.
 
-As ${ name } stood on the stage, her heart full of joy, she realized that life, like her favorite colors, was a beautiful mosaic of experiences waiting to be explored. And with ${ petname } by her side and her love for music, books, and adventure, she knew that every day would be another chapter in her colorful journey.`
+As <span>${ name }</span> stood on the stage, her heart full of joy, she realized that life, like her favorite colors, was a beautiful mosaic of experiences waiting to be explored. And with <span>${ petname }</span> by her side and her love for music, books, and adventure, she knew that every day would be another chapter in her colorful journey.`
 
 //alert(story)
 

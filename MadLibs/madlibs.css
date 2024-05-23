@@ -20,3 +20,9 @@ p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14pt;
 }
+span{
+    color:navy;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: underline;
+}
