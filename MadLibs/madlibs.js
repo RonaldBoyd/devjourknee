@@ -29,7 +29,7 @@ let libvars=[]
 
 function executeprog(){
 let madlibs=populatevars(userprompts)
-alert(madlibs)
+//alert(madlibs)
 for(let i=0;i<madlibs.length;i++){
     console.log(madlibs[i]+'\n')   
 }
@@ -66,7 +66,7 @@ One day, ${ hometown } hosted a grand talent show, and ${ name } decided to show
 
 As ${ name } stood on the stage, her heart full of joy, she realized that life, like her favorite colors, was a beautiful mosaic of experiences waiting to be explored. And with ${ petname } by her side and her love for music, books, and adventure, she knew that every day would be another chapter in her colorful journey.`
 
-alert(story)
+//alert(story)
 
 document.getElementById("mystory").innerHTML=story
 }
