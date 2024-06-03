@@ -1,0 +1,25 @@
+section{
+    display: block;
+    text-align: center;
+    background-color: cadetblue;
+}
+button{
+    height:2em;
+    width:5em;
+    margin:1em;
+}
+h1{
+    padding:1em;
+}
+input{
+    height: 2em;
+    width: 15em;
+}
+li{
+    list-style-type: none;
+    padding: 3px;
+}
+.done{
+    text-decoration: line-through;
+    color: red;
+}
