@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interactive Quiz</title>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	
+</head>
+<body>
+	<header>
+		<button onclick="makeTest()">Test</button>
+		<button onclick="buildQuestion(1)">Build</button>
+	</header>
+	<section>
+		<form action="page.html" method="GET">
+			<p id="question"></p>
+			<input type="submit" name="Submit">
+		</form>
+	</section>
+	<footer>
+		<button onclick="checkAnswer()">Check Answer</button>
+		<button onclick="parseurl()">ParseURL</button>
+		<script type="text/javascript" src="./js/scripts.js"></script>
+	<script type="text/javascript">
+	function popupWin(){
+		myWindow=window.open("",'_blank', 'height=550,width=650')
+		myWindow.document.write(`<script type=\"text\/javascript\" src=\".\/js\/scripts.js\"><\/script>`)
+		myWindow.document.write(`<link rel="stylesheet" type="text/css" href="./css/styles.css">`)
+		myWindow.document.write(`<form action="#" method="GET">`)
+		myWindow.document.write(`<p id='question'></p><input type="submit" name="Submit"></form>`)
+		myWindow.document.write(`<button onclick='askQuestion()'>Ask</button>`)
+		myWindow.document.write(`<button onclick='checkAnswer()'>Check</button>`)
+		
+		myWindow.document.write(`<img src='https://media.tenor.com/Az1oLrnmqT4AAAAj/the-warning-the-warning-rock-band.gif'>`)
+
+	}
+	</script>
+	<button onclick="popupWin()">Popup</button>
+
+	</footer>
+</body>
+</html>
