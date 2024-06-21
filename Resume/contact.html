@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ronald Boyd Contact</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/scripts.js"></script>
+
 </head>
 <body>
   <header>
@@ -14,13 +14,14 @@
     <h2><a href="index.html">Home</a></h2>
     <h2>Ronald Jackson Boyd</h2>
   </header>
-    <form action="./js/action_page.js" method="get">
+    <form id="contact-form" method="get">
         <fieldset>
           <legend>User Data</legend>
           <label
             >Name:
             <input
               type="text"
+              id="name"
               name="name"
               required="required"
               placeholder="Your Name"
@@ -29,6 +30,7 @@
           <label
             >Email:<input
               type="email"
+              id="email"
               name="email"
               required="required"
               placeholder="YourEmail@domain.com"
@@ -36,13 +38,17 @@
           <br />
           <label
             >Message:<br><br><textarea
+            id="message"
               name="message"
+              required
               placeholder="Enter your message here"
             ></textarea>
           </label>
         </fieldset>
-        <input type="submit" name="submit" class="button" onclick ="echovals(message.value)"/>
+        <input type="submit" id="submit" name="submit" class="button" onclick ="echovals(message.value)"/>
       </form>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="./js/scripts.js"></script>
 </body>
 </html>
 
